@@ -16,6 +16,7 @@ In a Discrete Simulation, a Time Warp would require to know, at what value of 't
 
 #Example of use
 
+```java
 //Use hours as time unit
 LaborTimeCalculatorFactory cf = LaborTimeCalculatorFactory.getInstance(TimeUnit.HOUR);
 
@@ -31,20 +32,15 @@ c.addDailyNonLaborableInterval(WeekDays.FRI, cf.createDailyTimeInterval(12, 24))
 c.addDailyNonLaborableInterval(WeekDays.SAT, cf.createDailyTimeInterval(0, 24));
 c.addDailyNonLaborableInterval(WeekDays.SUN, cf.createDailyTimeInterval(0, 24));
 
-        //jornada laboral: viernes de 8 a 12 ?nicamente.
-        //104 = Viernes 8:00am
-        //273 = Viernes de la siguiente semana, 9:00am
-        //441 = Viernes, de la tercera semana, 9:00am
-
 //if the job is assigned at friday, at 8:00am (104'th hour of the week),
 //when will the employee finish a 5-hour task?
 int timeToJump=cf.getCalculator().moveTimeLaboralHours(c, 104, 5));
+```
 
 
 
 
-
-Héctor Fabio Cadavid Rengifo
+Héctor Fabio Cadavid Rengifo - 2013
 Escuela Colombiana de Ingeniería
 
 
