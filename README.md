@@ -1,5 +1,5 @@
 
-##Scheduled-based TimeWarp Calculator library for Discrete Events simulations.
+##Scheduled-based TimeWarp Calculator library for Discrete Event Simulations.
 
 This library is specially suitable for Processes Simulations where the human 
 factor is involved. 
