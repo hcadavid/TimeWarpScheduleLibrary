@@ -6,12 +6,13 @@ factor is involved.
 
 #Sample scenario:
 
-In a simulation of a Workstatio W, at t=0, a man-made manufacturing which takes 
-120 hours is going to start. The employee at W works from Monday to 
-Friday, from 8:00 am to 12:00 and (after lunch) from 1:00p.m. to 5:00 p.m.
+For a simulation, at time=0, an employee is going to perform a task which requires 
+120 hours. This employee works from Monday to Friday, from 8:00 am to 12:00 and 
+(after lunch) from 1:00p.m. to 5:00 p.m.
 
-In a Discrete Simulation, a Time Warp would require to know, at what value of 't'
-(in our or minutes) will be the manufacturing process finished?
+In a Discrete Simulation, for a Time Warp, it would be required to calculate, 
+at what value of 'time' (in hours or minutes) will be the employee's task
+finished?
 
 
 #Example of use
